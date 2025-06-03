@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef26fb4bb3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/nishara_logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>                   
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">   
+                <p>Software and Web Developer</p>
+                <h2>Hi, I'm <span>Nishara Madhushankha</span><br>From Sri Lanka</h2>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about  section--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/nishara.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a dedicated ICT student with an NVQ Level 4 qualification, 
+                        currently pursuing NVQ Level 5 (Diploma). Passionate about software development, 
+                        I enjoy creating real-world desktop and web applications. I have hands-on experience with 
+                        <span>C#, Java, PHP, JavaScript, HTML, CSS, and MySQL</span> and work with tools like Visual Studio (WinForms) and VS Code.
+                        I focus on writing clean, user-friendly code and am always eager to learn, grow, and take on new challenges in 
+                        the IT field.
+                    </p>    
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages: </span><br>C#, Java, PHP, JavaScript</li>
+                            <li><span>Development Tools : </span><br>Visual Studio (WinForms), Visual Studio Code</li>
+                            <li><span>Web Technologies:</span><br> HTML, CSS, JavaScript </li>
+                            <li><span>Database Systems: </span><br>MySQL</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>ICT Technician Training Ceylon Electricity Board 6 Months </span><br>
+                                <div class="point-expirience">
+                                    <ul>
+                                    <li>Assisted with system maintenance and software updates</li>
+                                    <li>Helped manage databases and troubleshoot user issues</li>
+                                    <li>Gained exposure to network setup and software installation tasks.</li>
+                                    <li>Data Entry Works</li>
+                                </ul>
+                            
+                     
+                            <li><span>ICT Trainig National Water Supply and Drainage Board 4 Months</span><br>
+                               <div class="point-expirience">
+                                 <ul>
+                                    <li>Supported daily operations in the IT Section</li>
+                                    <li>Performed troubleshooting, software configuration, and technical documentation.</li>
+                                    <li>Data Entry Works</li>
+                                    <li>Office producers on file maintenance & clerical works</li>
+                                </ul>
+                               </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>NVQ Level 05 – Information & Communication Technology (Ongoing)</span><br>Key Modules -:
+                                <div class="point-education">
+                                    <ul>
+                                        <li>Software Development (C#, Java)</li>
+                                        <li>Web Development (HTML, CSS, JavaScript, PHP)</li>
+                                        <li>Database Systems (MySQL)</li>
+                                        <li>System Analysis & Design</li>
+                                        <li>Graphics Design</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><span>NVQ Level 04 – Information & Communication Technology</span><br>Key Modules -:
+                                <div class="point-education">
+                                    <ul>
+                                        <li>Office Applications: MS Word, Excel, PowerPoint,Access</li>
+                                        <li>Graphic Design: Adobe Photoshop</li>
+                                        <li>Networking: Basic Network Concepts</li>
+                                        <li>Software Development: VB.NET (using Visual Studio)</li>
+                                    </ul>       
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Portfolio section---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>
+                            Inventory Management System
+                        </h3>
+                        <p>
+                            A desktop application for managing inventory, tracking stock levels, and generating reports. 
+                            Developed using C# and WinForms, it features a user-friendly interface for efficient inventory control.
+                        </p>
+                        <a href="https://github.com/nishara-madhushankha-collab/InventoryManagementSystem-NVQ5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                     <div class="layer">
+                        <h3>
+                            Web Design
+                        </h3>
+                        <p>
+                            I create responsive and user-friendly web pages using HTML, CSS, JavaScript, and PHP.
+                            My work focuses on clean design, functionality, and user experience. I enjoy building both front-end and back-end features and 
+                            continuously improving my skills in full-stack web development.
+                        </p>
+                        <a href="https://github.com/nishara-madhushankha-collab/Sample_loginPage_with_HTML--CSS--PHP"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                     <div class="layer">
+                        <h3>
+                            Database Management
+                        </h3>
+                        <p>
+                            I design and manage databases using MySQL, ensuring data integrity and efficient data retrieval. 
+                            My experience includes creating database schemas, writing complex queries, and optimizing database performance.
+                            I focus on building robust back-end systems that support web applications and software solutions.
+                        </p>
+                        <a href="https://github.com/nishara-madhushankha-collab/InventoryManagementSystem-NVQ5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------Gallery Section-------- -->
+     <div id="gallery">
+        <div class="gallery-container">
+            <h3>My Gallery</h3>
+            <div class="gallery-track">
+                <!-- 6 images (duplicated for smooth infinite scrolling) -->
+                <img src="images/batch photo.jpg" alt="Image 1">
+                <img src="images/img1.JPG" alt="Image 2">
+                <img src="images/img2.jpg" alt="Image 3">
+                <img src="images/img4.jpg" alt="Image 4">
+                <img src="images/IMG_5611.jpg" alt="Image 5">
+                <img src="images/nishara.png" alt="Image 6">
+                
+                <!-- Repeat again for continuous scroll -->
+                <img src="images/batch photo.jpg" alt="Image 1">
+                <img src="images/img1.JPG" alt="Image 2">
+                <img src="images/img2.jpg" alt="Image 3">
+                <img src="images/img4.jpg" alt="Image 4">
+                <img src="images/IMG_5611.jpg" alt="Image 5">
+                <img src="images/nishara.png" alt="Image 6">
+            </div>
+        </div>
+     </div>
+
+     <!-- -----------------------contact section ------------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nisharamadhushankha@gmail.com</p>
+                    <p><i class="fa-brands fa-square-whatsapp"></i>0714199131 </p> 
+                    <p><i class="fa-solid fa-square-phone-flip"></i>0762517184</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Nishara7141"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/nishara-madhushankha-107220368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="nisharamadhushankha@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://github.com/nishara-madhushankha-collab"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Nishara_cv.pdf" download class="btn">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="" method="post">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                    <span id="msg">
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2025 Nishara Madhushankha. All rights reserved.</p>
+        </div>
+     </div>
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-links");
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3K3Y_hokaG4S9bp4QNERg7nWvIhWzph24VMrdc4c9MOKefnzlhMxAa5Gnh7lR_v-E/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!";
+                setTimeout(function() {
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+</body>
+</html>
