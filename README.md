@@ -3,7 +3,7 @@ Personal Portfolio Website 🌐
 This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my projects, skills, experience, education, and includes a contact form connected to Google Sheets for form submissions.
 
 🚀 Live Preview
-You can view the live version of the portfolio here (if hosted):
+You can view the live version of the portfolio here:
 https://nishara-madhushankha-collab.github.io/Portfolio_website/
 
 📂 Features
